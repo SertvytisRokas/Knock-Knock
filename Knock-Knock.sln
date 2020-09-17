@@ -1,8 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{A665F61A-F996-2A51-771A-0D83A3B8A10F}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mirror", "Mirror.csproj", "{86FDE754-8CC7-6DC6-EB79-60ECDC094911}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telepathy", "Telepathy.csproj", "{D64C03B5-3561-EB28-8521-F1B9E7B392D3}"
@@ -20,6 +18,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mirror.Tests.Runtime", "Mirror.Tests.Runtime.csproj", "{212C2DAA-6C17-2203-DB28-AD0CBECC9EB5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mirror.Examples.Cloud.GUI", "Mirror.Examples.Cloud.GUI.csproj", "{DE0DEDA9-5F39-F9D9-DA7F-BBDDC3F676C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{A665F61A-F996-2A51-771A-0D83A3B8A10F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mirror.Examples.Cloud.Pong", "Mirror.Examples.Cloud.Pong.csproj", "{DA232494-A9D3-C526-4503-AB12879E40F0}"
 EndProject
@@ -51,10 +51,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A665F61A-F996-2A51-771A-0D83A3B8A10F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A665F61A-F996-2A51-771A-0D83A3B8A10F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A665F61A-F996-2A51-771A-0D83A3B8A10F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A665F61A-F996-2A51-771A-0D83A3B8A10F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{86FDE754-8CC7-6DC6-EB79-60ECDC094911}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{86FDE754-8CC7-6DC6-EB79-60ECDC094911}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86FDE754-8CC7-6DC6-EB79-60ECDC094911}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -91,6 +87,10 @@ Global
 		{DE0DEDA9-5F39-F9D9-DA7F-BBDDC3F676C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE0DEDA9-5F39-F9D9-DA7F-BBDDC3F676C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE0DEDA9-5F39-F9D9-DA7F-BBDDC3F676C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A665F61A-F996-2A51-771A-0D83A3B8A10F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A665F61A-F996-2A51-771A-0D83A3B8A10F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A665F61A-F996-2A51-771A-0D83A3B8A10F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A665F61A-F996-2A51-771A-0D83A3B8A10F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DA232494-A9D3-C526-4503-AB12879E40F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DA232494-A9D3-C526-4503-AB12879E40F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA232494-A9D3-C526-4503-AB12879E40F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
